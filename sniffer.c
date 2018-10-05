@@ -36,7 +36,7 @@ void print_icmp_packet(unsigned char* , int);
 void PrintData (unsigned char* , int);
 void read_from_pipe (int );
 
-/* Global variable1s */ 
+/* Global variables */ 
 int sock_raw;
 FILE *logfile;
 int tcp = 0, udp = 0, icmp = 0, others = 0, igmp = 0, total = 0 , i ,j;		/* Counters for packets 			*/
