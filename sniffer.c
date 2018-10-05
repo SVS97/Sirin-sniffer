@@ -5,7 +5,7 @@
  * date 05.10.2018
  * It's a (very) simple traffic sniffer. It could collects​ ​ statistic​ ​ about​ ​ network​ ​ traffic
  * copyright GNU Public License
- * * This code developed for education aims, not for commercial using.
+ * This code developed for education aims, not for commercial using.
  * It's a homework task for C Linux developer (Sirin Software)
  * Sniffer ​sniffs​ ​ packets​ ​ from​ ​ particular​ ​ interface saves​ ​ ip​ ​ addresses​ ​ of​ ​ incoming​ ​ packets​
  *​ and​ ​ number​ ​ of​ ​ packets​ ​ from​ ​ each​ ​ ip
@@ -39,9 +39,9 @@ void read_from_pipe (int );
 /* Global variables */ 
 int sock_raw;
 FILE *logfile;
-int tcp = 0, udp = 0, icmp = 0, others = 0, igmp = 0, total = 0 , i ,j;		/* Counters for packets 			*/
+int tcp = 0, udp = 0, icmp = 0, others = 0, igmp = 0, total = 0 , i ,j;	/* Counters for packets 			*/
 
-struct sockaddr_in source,dest;							/* Socket information 				*/
+struct sockaddr_in source,dest;						/* Socket information 				*/
  
 int main(int argc, char *argv[])
 {
